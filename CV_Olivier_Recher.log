@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.16)  21 NOV 2025 17:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.16)  21 NOV 2025 19:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1028,7 +1028,7 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `CV_Olivier_Recher.out' has not changed.
-(rerunfilecheck)             Checksum: 04AAE7FDE07675B482D410936FDD4E5C;594.
+(rerunfilecheck)             Checksum: 6CDF37875EE76A41B871F7E0C9C00953;594.
  ) 
 Here is how much of TeX's memory you used:
  27735 strings out of 473190
@@ -1047,7 +1047,7 @@ t/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/ty
 pe1/public/lm/lmss17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public
 /lm/lmssbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss
 o10.pfb>
-Output written on CV_Olivier_Recher.pdf (1 page, 190688 bytes).
+Output written on CV_Olivier_Recher.pdf (1 page, 191379 bytes).
 PDF statistics:
  97 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream
