@@ -1,0 +1,170 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% --- ModernCV Style Setup ---
+\moderncvstyle{banking}  % 'banking' style centers headers and is clean
+\moderncvcolor{blue}     % Color options: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey', 'black'
+
+% --- Character Encoding & Fonts ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{cmap} % Improves text copying from PDF
+
+% --- Page Layout ---
+\usepackage[scale=0.94, top=1.5cm, bottom=1.5cm]{geometry}
+\setlength{\hintscolumnwidth}{3cm} % Adjusted for better spacing
+
+% --- Packages for Columns & Lists ---
+\usepackage{paracol}
+\usepackage{enumitem} % For custom bullet lists
+\setlist[itemize]{label=\textbullet, nosep, leftmargin=*} % Tight bullet points
+
+% --- Personal Information ---
+\name{Olivier}{Recher}
+\title{Apprentice Full Stack Developer / Software Engineering Intern}
+\address{Toulouse}{France}
+\phone[mobile]{+33~6~19~01~36~44}
+\email{recher.olivier@outlook.fr}
+\homepage{www.olivier-recher.com}
+\social[github]{OlivierRecher} %
+
+% --- Document Start ---
+\begin{document}
+
+\makecvtitle
+
+% --- Professional Summary (Full Width) ---
+\vspace*{-1em} % Slight visual adjustment to pull summary up
+\small{Apprentice Full Stack Developer with 4+ years of experience delivering scalable products in Symfony, Nuxt/Vue, TypeScript, PHP, and Node.js. Strong focus on translating business needs into maintainable features and optimizing performance. Looking for a Summer Internship (Available from July) to grow technical depth and cross-cultural collaboration skills.}
+\vspace*{1em}
+
+% --- Two Column Layout Start ---
+\columnratio{0.25} % 32% Left, 68% Right
+\setlength{\columnsep}{2em} % Gap between columns
+
+\begin{paracol}{2}
+
+% ---------------------------------------------------------
+% LEFT COLUMN (Sidebar)
+% ---------------------------------------------------------
+
+\section{Technical Skills}
+\textbf{Frontend}
+\begin{itemize}
+    \item Vue.js (Nuxt), React, Angular
+    \item TypeScript, JavaScript
+    \item Tailwind CSS, Responsive UI
+\end{itemize}
+\medskip
+
+\textbf{Backend}
+\begin{itemize}
+    \item Symfony, PHP, Node.js
+    \item REST APIs, JWT/OAuth
+    \item Microservices Architecture
+\end{itemize}
+\medskip
+
+\textbf{Programming \& Data}
+\begin{itemize}
+    \item Java, Python, C, Bash
+    \item SQL (MySQL, PostgreSQL)
+    \item NoSQL (MongoDB)
+\end{itemize}
+\medskip
+
+\textbf{DevOps \& Tools}
+\begin{itemize}
+    \item Git (GitHub/GitLab)
+    \item Docker, CI/CD Pipelines
+    \item Linux, Vercel, Postman
+\end{itemize}
+
+\section{Languages}
+\begin{itemize}
+    \item \textbf{French:} Native (C2)
+    \item \textbf{English:} Fluent (C1) \\ \textit{TOEIC: 940/990}
+\end{itemize}
+
+\section{Soft Skills}
+\begin{itemize}
+    \item Teamwork \& Collaboration
+    \item Proactive Communication
+    \item Critical Thinking
+    \item Autonomy \& Adaptability
+\end{itemize}
+
+\section{Interests}
+\begin{itemize}
+    \item \textbf{Fitness:} Weight training (discipline, goal setting)
+    \item \textbf{Travel:} Cultural openness
+\end{itemize}
+
+\switchcolumn
+
+% ---------------------------------------------------------
+% RIGHT COLUMN (Main Content)
+% ---------------------------------------------------------
+
+\section{Professional Experience}
+
+\cvitem[0.75em]{}{\textbf{Apprentice Full Stack Developer} \hfill \textit{2023 -- Present} \\ \textit{Finvens} \hfill \textit{Toulouse}}
+\begin{itemize}
+    \item Migrated a business-critical application (200+ daily users) from legacy PHP 5 to Symfony 6 REST APIs and Nuxt 3/Vue/TypeScript frontends.
+    \item Optimized data models and led feature redesigns, resulting in improved application performance and code maintainability.
+    \item Collaborated closely with Product, QA, and Support teams in Agile/Scrum rituals to ensure seamless delivery.
+\end{itemize}
+
+\vspace*{0.5em}
+
+\cvitem[0.75em]{}{\textbf{Apprentice Full Stack Developer} \hfill \textit{2022 -- 2023} \\ \textit{Sopra Steria} \hfill \textit{Toulouse}}
+\begin{itemize}
+    \item Designed, developed, and delivered a custom ERP used by 80+ employees across 10 distinct teams.
+    \item Built web-based management tools using JavaScript, PHP, and SQL to handle schedules, meeting rooms, and leave requests.
+    \item Managed the full lifecycle: requirements gathering, UI/UX design, database architecture, and end-to-end implementation.
+\end{itemize}
+
+\section{Education}
+
+\cvitem[0.75em]{}{\textbf{M.Sc. in Engineering (Diplôme d'Ingénieur)} \hfill \textit{2024 -- 2027} \\ \textit{Ecole Nationale Supérieure des Mines d'Alès} \hfill \textit{Alès}}
+\cvitem{}{Top-tier French engineering school with focus on Software Engineering.}
+
+\vspace*{0.5em}
+
+\cvitem[0.75em]{}{\textbf{Bachelor of Technology in Computer Science} \hfill \textit{2021 -- 2024} \\ \textit{Université Toulouse - Jean Jaurès} \hfill \textit{Toulouse}}
+\cvitem{}{Specialization in Application Development.}
+
+\section{Personal Projects}
+
+% Using a custom format for projects to save space and look cleaner
+\textbf{Portfolio Website} \hfill \textit{Nuxt, TypeScript, Tailwind}
+\begin{itemize}
+    \item High-performance showcase website emphasizing UI/UX and automated deployment workflows.
+\end{itemize}
+\medskip
+
+\textbf{Pomodoro App} \hfill \textit{Flutter, Dart}
+\begin{itemize}
+    \item Mobile application featuring task management, custom timers, and push notifications.
+\end{itemize}
+\medskip
+
+\textbf{Accounting Firm Website} \hfill \textit{React, Tailwind}
+\begin{itemize}
+    \item Developed a commercial site that improved inbound leads and SEO ranking for a local firm.
+\end{itemize}
+\medskip
+
+\textbf{AI Doodle Jump} \hfill \textit{JavaScript, Neural Networks}
+\begin{itemize}
+    \item Implemented a genetic algorithm and neural network to create a self-learning autopilot for the game.
+\end{itemize}
+
+\textbf{Drone Delivery App} \hfill \textit{React Native, TypeScript, Node.js, MongoDB}
+\begin{itemize}
+    \item Built a drone delivery mobile app with secure authentication, order flows, and real-time tracking connected to a drone simulator.
+\end{itemize}
+
+\end{paracol}
+
+\end{document}
