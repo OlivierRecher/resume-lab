@@ -230,8 +230,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/paracol/paracol.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/paracol/paracol.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -272,11 +270,11 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/atveryend/atveryend.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd
@@ -313,10 +311,10 @@ OUTPUT /Users/olivierrecher/Documents/Fichier Admnistratif/général/CV/CV_Olivi
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmss17.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmss10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/fontawesome5/fa5free2solid.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1regular.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
@@ -324,11 +322,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ts1-lmr10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1regular.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1solid.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd
@@ -370,23 +363,20 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/mmap/omx.cmap
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmss12.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmss.fd
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmss.fd
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmss.fd
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ts1-lmss10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmsso10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc
 INPUT /Users/olivierrecher/Documents/Fichier Admnistratif/général/CV/CV_Olivier_Recher.aux
 INPUT /Users/olivierrecher/Documents/Fichier Admnistratif/général/CV/CV_Olivier_Recher.out
 INPUT /Users/olivierrecher/Documents/Fichier Admnistratif/général/CV/CV_Olivier_Recher.out
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss17.pfb
